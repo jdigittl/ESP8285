@@ -186,7 +186,7 @@ unsigned long previousMillis = 0;        // will store last temp was read
 const long interval = 2000;              // interval at which to read sensor
  
 void handle_root() {
-  server.send(200, "text/plain", "Hello from the environmental montiroing station ESP8285!");
+  server.send(200, "text/plain", "Hello from the environmental monitoring station ESP8285!");
   delay(100);
 }
 
